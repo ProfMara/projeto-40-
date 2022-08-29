@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Corrida de Carros</title>
+    <!-- Lib -->
+    <script src="./libraries/p5.js"></script>
+    <script src="./libraries/p5.dom.min.js"></script>
+
+    <script src="./libraries/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+  <!--COLOQUE AQUI O CÓDIGO DE REFERÊNCIA DO BANCO DE DADOS -->
+    <script>
+   
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/game.js"></script>
+    <script src="./js/form.js"></script>
+    <!--COLOQUE AQUI O CÓDIGO DE REFERÊNCIA PARA PLAYER.JS -->
+   
+    <script src="./sketch.js"></script>
+  </body>
+</html>
